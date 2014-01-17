@@ -100,22 +100,28 @@ body {
 
 @media screen and (max-width: 1000px) {
   #app p {
-    font-size: 3rem; }
+    font-size: 28px; }
   #app #left-hand-nav {
     display: none; }
   #app #main-well {
     margin-left: 0px; }
   #app .sm-disp-heading {
-    display: block; }
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px; }
     #app .sm-disp-heading .dfm-logo {
       margin: 4px;
-      width: 94px;
-      height: 94px; }
+      width: 150px;
+      height: 150px; }
     #app .sm-disp-heading .company-name > * {
-      font-size: 38px; }
+      font-size: 64px; }
     #app .sm-disp-heading .secondary-name {
-      margin-left: 10px; } }
-@media screen and (max-width: 420px) {
+      margin-left: 10px; }
+  #app #Contact .field-note {
+    line-height: 14px;
+    margin-bottom: 6px; } }
+@media screen and (max-width: 700px) {
   #app .sm-disp-heading .dfm-logo {
     width: 74px;
     height: 74px; }

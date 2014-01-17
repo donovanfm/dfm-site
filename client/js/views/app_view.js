@@ -25,7 +25,7 @@ function(_, $, Backbone, Handlebars, NavView, MainView, AboutView, TechnologyVie
   			var view = new viewClass();
   			sections[view.name] = view;
   			view.on('rendered', function(){
-  				var mq = window.matchMedia( "(min-width: 900px)" );
+  				var mq = window.matchMedia( "(min-width: 1000px)" );
 		    	if (mq.matches) {
 		    		this.$el.scrollspy('refresh');
 			    	this.scrollToActiveEl();
@@ -43,7 +43,7 @@ function(_, $, Backbone, Handlebars, NavView, MainView, AboutView, TechnologyVie
     	this.navView.setElement(this.$('#left-hand-nav')).render();
     	this.mainView.setElement(this.$('#main-well')).render();
 
-    	var mq = window.matchMedia( "(min-width: 900px)" );
+    	var mq = window.matchMedia( "(min-width: 1000px)" );
     	if (mq.matches) {
 	    	this.$el.scrollspy({ target: '#left-hand-nav', offset : 20 });
 	    	this.scrollToActiveEl();
