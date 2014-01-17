@@ -1,0 +1,29 @@
+{
+  "name": "dfm-site-client",
+  "version": "0.0.0",
+  "authors": [
+    "Donovan McMurray <dfmcmurray@gmail.com>"
+  ],
+  "description": "The main website for DFM Web Studio",
+  "main": "Gruntfile.js",
+  "license": "none",
+  "homepage": "dfmwebstudio.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.0.3",
+    "requirejs": "~2.1.9",
+    "backbone": "~1.1.0",
+    "lodash": "~2.4.1",
+    "requirejs-text": "~2.0.10",
+    "handlebars": "~1.2.1",
+    "require-handlebars-plugin": "~0.7.0",
+    "blockui": "*"
+  }
+}

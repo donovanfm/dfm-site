@@ -1,0 +1,23 @@
+#app {
+  #Projects {
+    img {
+      width : 175px;
+      margin : 15px;
+      margin-left : auto;
+      margin-right : auto;
+      border-radius : 20%;
+    }
+    h3 {
+      color : black;
+    }
+    a {
+      text-align : center;
+      display : block;
+      margin-left : auto;
+      margin-right : auto;
+      &:hover {
+        text-decoration : none;
+      }
+    }
+  }
+}

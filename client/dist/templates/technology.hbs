@@ -1,0 +1,13 @@
+{{#each this}}
+	<div class='row'>
+		{{#each this}}
+			<div class='technology col-md-4'>
+				<a href='{{url}}'>
+					<img src='{{image}}' />
+				</a>
+				<h3>{{name}}</h3>
+				<p>{{desc}}</p>
+			</div>
+		{{/each}}
+	</div>
+{{/each}}

@@ -1,0 +1,39 @@
+#app {
+  @media screen and (max-width: 1000px) {
+    p {
+      font-size: 3rem;
+    }
+    #left-hand-nav {
+      display: none;
+    }
+    #main-well {
+      margin-left: 0px;
+    }
+    .sm-disp-heading {
+      display : block;
+      .dfm-logo {
+        margin: 4px;
+        width: 94px;
+        height: 94px;
+      }
+      .company-name > * {
+        font-size : 38px;
+      }
+      .secondary-name {
+        margin-left : 10px;
+      }
+    }
+  }
+
+  @media screen and (max-width: 420px) {
+    .sm-disp-heading {
+      .dfm-logo {
+        width : 74px;
+        height : 74px;
+      }
+      .company-name > * {
+        font-size : 24px;
+      }
+    }
+  }
+}
