@@ -14,7 +14,7 @@ var exphbs = require('express3-handlebars');
 var app = express();
 
 //var isDevMode = 'development' == app.get('env');
-var isDevMode = false;
+var isDevMode = process.env.NODE_ENV == 'development';
 var clientDir = isDevMode ? 'client' : 'client/dist';
 
 // all environments
