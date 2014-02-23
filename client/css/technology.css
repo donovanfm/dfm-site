@@ -1,4 +1,6 @@
-#app #Technology .technology img {
-  width: 100px;
-  height: 100px;
-  margin-top: 15px; }
+#app #Technology .technology {
+  text-align: center; }
+  #app #Technology .technology img {
+    width: 100px;
+    height: 100px;
+    margin-top: 15px; }

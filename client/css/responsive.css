@@ -1,6 +1,4 @@
-@media screen and (max-width: 1000px) {
-  #app p {
-    font-size: 28px; }
+@media screen and (max-width: 960px) {
   #app #left-hand-nav {
     display: none; }
   #app #main-well {
@@ -15,15 +13,19 @@
       width: 150px;
       height: 150px; }
     #app .sm-disp-heading .company-name > * {
-      font-size: 64px; }
+      font-size: 32px; }
     #app .sm-disp-heading .secondary-name {
       margin-left: 10px; }
   #app #Contact .field-note {
     line-height: 14px;
-    margin-bottom: 6px; } }
-@media screen and (max-width: 700px) {
+    margin-bottom: 6px; }
+  #app #Technology .technology {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto; } }
+@media screen and (max-width: 360px) {
   #app .sm-disp-heading .dfm-logo {
-    width: 74px;
-    height: 74px; }
+    width: 34px;
+    height: 34px; }
   #app .sm-disp-heading .company-name > * {
     font-size: 24px; } }
